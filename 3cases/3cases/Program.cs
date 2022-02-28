@@ -15,7 +15,7 @@ namespace Program1
             #region variables
             int aflevering, point1, point2;
             string mål, danserNavn1, danserNavn2, psw, bruger, switchSwitcher;
-            string path = @"C:\Users\jonøst\source\repos\3cases\User.txt";
+            string path = @"User.txt";
             bool end = false;
             bool loginTrue = false;
             ValidatePassword validatePassword = new ValidatePassword();
@@ -23,6 +23,7 @@ namespace Program1
             Dancepoint dancepoint = new Dancepoint();
             Football football = new Football();
             #endregion
+
 
             #region Main Kode
             if (File.Exists(path) == false) // checker om fil med brugerdata findes

@@ -152,7 +152,7 @@ namespace ClassLibrary_project_ThreeCases
         private void WriteToFile(string bruger, string password) // Skriver mit brugernavn og password til en tekstfil.
         {
             string[] user = { bruger, password };
-            string path = @"C:\Users\jonøst\source\repos\3cases\User.txt";
+            string path = @"User.txt";
 
             File.WriteAllLines(path, user);
         }
