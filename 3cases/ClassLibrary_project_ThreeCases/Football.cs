@@ -17,12 +17,12 @@ namespace ClassLibrary_project_ThreeCases
                 udmelding = "Olé olé olé";
                 return udmelding;
             }
-            else if (x <= 1 && y != "MÅL")
+            else if (x < 1)
             {
                 udmelding = "Shh";
                 return udmelding;
             }
-            else if (x > 1 && x <= 9 && y != "MÅL")
+           else if (x > 0 && x <= 9)
             {
                 for (int i = 0; i < x; i++)
                 {
@@ -30,14 +30,10 @@ namespace ClassLibrary_project_ThreeCases
                 }
                 return udmelding;
             }
-            else if (x > 9 && y != "MÅL")
-            {
-                udmelding = "High Five - Jubel!!!";
-                return udmelding;
-            }
             else
             {
-                udmelding = "Indtastede resultater er ikke godkendt!";
+                udmelding = "High Five - Jubel!!!";
+
                 return udmelding;
             }
         }
