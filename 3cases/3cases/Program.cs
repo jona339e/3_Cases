@@ -123,12 +123,11 @@ namespace Program1
                             danserNavn2 = Console.ReadLine();
                             Console.Write("Indtast point for {0}: ", danserNavn2);
                             point2 = Convert.ToInt32(Console.ReadLine());
-                                Dancepoint navn1 = new Dancepoint(danserNavn1,point1);
-                                Dancepoint navn2 = new Dancepoint(danserNavn2,point2);
-                                Dancepoint navn3 = navn1 + navn2;
-                                navn3.udskriv();
-
-                                Console.ReadKey();
+                            Dancepoint navn1 = new Dancepoint(danserNavn1,point1);
+                            Dancepoint navn2 = new Dancepoint(danserNavn2,point2);
+                            Dancepoint navn3 = navn1 + navn2;
+                            navn3.udskriv();
+                            Console.ReadKey();
                             break;
                         }
                     case "4": //afslutter program
