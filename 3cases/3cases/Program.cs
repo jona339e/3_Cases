@@ -20,7 +20,6 @@ namespace Program1
             bool loginTrue = false;
             ValidatePassword validatePassword = new ValidatePassword();
             ValidateUser validateUser = new ValidateUser();
-            Dancepoint dancepoint = new Dancepoint();
             Football football = new Football();
             #endregion
 
@@ -124,8 +123,12 @@ namespace Program1
                             danserNavn2 = Console.ReadLine();
                             Console.Write("Indtast point for {0}: ", danserNavn2);
                             point2 = Convert.ToInt32(Console.ReadLine());
-                            Console.WriteLine(dancepoint.DansePoint(danserNavn1, danserNavn2) + dancepoint.DansePoint(point1,point2)); 
-                            Console.ReadKey();
+                                Dancepoint navn1 = new Dancepoint(danserNavn1,point1);
+                                Dancepoint navn2 = new Dancepoint(danserNavn2,point2);
+                                Dancepoint navn3 = navn1 + navn2;
+                                navn3.udskriv();
+
+                                Console.ReadKey();
                             break;
                         }
                     case "4": //afslutter program

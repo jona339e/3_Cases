@@ -8,15 +8,27 @@ namespace ClassLibrary_project_ThreeCases
 {
     public class Dancepoint
     {
-        public string DansePoint(string navn1, string navn2) //tager to string-inputs og returnere en string hvor der star "input1 & input2 "
+        private string navn;
+        private int points;
+
+        public Dancepoint(string navn, int points) //constructor
         {
-            string navn = navn1 + " & " + navn2 + " ";
-            return navn;
+            this.navn = navn;
+            this.points = points;
         }
-        public int DansePoint(int point1, int point2) //tager to int-inputs og returnere de to inputs lagt sammen.
+
+        public static Dancepoint operator +(Dancepoint navn1, Dancepoint navn2) //+ operator overload
         {
-            int point = point1 + point2;
-            return point;
+            Dancepoint dancepoint = new Dancepoint(navn1.navn + " & " + navn2.navn, navn1.points + navn2.points);
+            return dancepoint;
+        }
+
+        public void udskriv() //bestemmer hvordan mine objekter udskrives
+        {
+            Console.WriteLine(navn + " " + points);
         }
     }
 }
+
+
+

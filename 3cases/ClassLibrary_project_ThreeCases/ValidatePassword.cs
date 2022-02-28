@@ -163,7 +163,7 @@ namespace ClassLibrary_project_ThreeCases
                                                             // Hvis disse stemmer overens med input bliver en tom streng returneret,
                                                             // ellers bliver en fejlmeddelse returneret som streng.
         {
-            string path = @"C:\Users\jonøst\source\repos\3cases\User.txt";
+            string path = @"User.txt";
             string[] text = File.ReadAllLines(path);
             if (bruger == text[0] && password == text[1])
             {
