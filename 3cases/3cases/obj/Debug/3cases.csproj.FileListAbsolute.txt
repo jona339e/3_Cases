@@ -1,0 +1,11 @@
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\bin\Debug\3cases.exe.config
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\bin\Debug\3cases.exe
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\bin\Debug\3cases.pdb
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\obj\Debug\3cases.csproj.AssemblyReference.cache
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\obj\Debug\3cases.csproj.SuggestedBindingRedirects.cache
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\obj\Debug\3cases.csproj.CoreCompileInputs.cache
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\obj\Debug\3cases.exe
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\obj\Debug\3cases.pdb
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\bin\Debug\ClassLibrary_project_ThreeCases.dll
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\bin\Debug\ClassLibrary_project_ThreeCases.pdb
+C:\Users\jonøst\source\repos\3cases\3cases\3cases\obj\Debug\3cases.csproj.CopyComplete

@@ -1,0 +1,6 @@
+C:\Users\jonøst\source\repos\3cases\3cases\ClassLibrary_project_ThreeCases\bin\Debug\ClassLibrary_project_ThreeCases.dll
+C:\Users\jonøst\source\repos\3cases\3cases\ClassLibrary_project_ThreeCases\bin\Debug\ClassLibrary_project_ThreeCases.pdb
+C:\Users\jonøst\source\repos\3cases\3cases\ClassLibrary_project_ThreeCases\obj\Debug\ClassLibrary_project_ThreeCases.csproj.AssemblyReference.cache
+C:\Users\jonøst\source\repos\3cases\3cases\ClassLibrary_project_ThreeCases\obj\Debug\ClassLibrary_project_ThreeCases.csproj.CoreCompileInputs.cache
+C:\Users\jonøst\source\repos\3cases\3cases\ClassLibrary_project_ThreeCases\obj\Debug\ClassLibrary_project_ThreeCases.dll
+C:\Users\jonøst\source\repos\3cases\3cases\ClassLibrary_project_ThreeCases\obj\Debug\ClassLibrary_project_ThreeCases.pdb
